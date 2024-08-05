@@ -1,0 +1,172 @@
+
+
+/*header*/
+
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 4rem 0 4rem;
+    position: absolute;
+    width: 98%;
+    
+}
+
+.navbar{
+    background-color: #FFF;
+    border-radius: 4rem;
+    display: flex;
+    padding: 0.5rem 0.5rem;
+}
+
+.container-logo{
+    padding: 0rem 0rem 0rem 4.5rem;
+}
+
+.logo{
+    font-size: 40px;
+    ;
+}
+.list{
+    align-items: center;
+    color: black;
+    display: flex;
+    gap: 3rem;
+    padding: 0.5rem 5rem;
+ 
+}
+
+.links{
+    list-style: none;
+    text-align: center;
+}
+
+.link{
+    color: black;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: #C93816;
+    transition: 0.3s;
+}
+.button{
+    display: flex;
+    gap: 0.5rem;
+    text-align: center;
+    
+}
+.button-orcamento{
+    background-color: black;
+    border-radius: 2rem;
+    border: none;
+    height: 2rem;
+    width: 130px;
+}
+
+.button-mais{
+    background-color: black;
+    border-radius: 2rem;
+    border: none;
+    height: 2rem;
+    width : 30px;
+}
+
+.button-orcamento a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.button-mais a{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* section */
+
+section {
+    align-items: center;
+    display: flex;
+    height: 90vh;
+}
+
+.home{
+    background-color: #C93816;
+}
+
+.container-home{
+    padding: 4% 0 0 4%;
+}
+
+.title-home{
+    color: #fff;
+    font-size: 150px;
+    font-weight: 700;
+    width: 50%;
+    line-height: 8rem;
+}
+
+.text-home{
+    color: #fff;
+    font-size: 26px;
+    margin-top: 2rem;
+    width: 23%;
+}
+
+.container-itens{
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+.card-home-left{
+    align-items: center;
+    border-radius: 2rem;
+    border-style: solid;
+    color: #fff;
+    display: flex;
+    font-size: 27px;
+    font-weight: 700;
+    height: 11rem;
+    margin-top: 2rem;
+    text-align: center;
+    transform: rotate(12deg);
+    width: 250px;
+}
+
+.card-home-right{
+    align-items: center;
+    border-radius: 2rem;
+    border-style: solid;
+    color: #fff;
+    display: flex;
+    font-size: 27px;
+    font-weight: 700;
+    height: 11rem;
+    margin-top: 2rem;
+    rotate: 2px;
+    text-align: center;
+    transform: rotate(-15deg);
+    width: 230px;
+}
+
+.card-image{
+    height: 500px;
+    margin: 10px auto;
+    position: absolute;
+    right: 5%;
+    top: 30% ;
+    width: 450px;
+}
+
+.card-image img{
+    border-radius: 2rem;
+    height: 100%;
+    width: 100%;
+}

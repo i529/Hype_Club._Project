@@ -1,0 +1,70 @@
+.sobre-nos{
+    background-color: #000;
+    height: 25vh;
+}
+
+.container-sobre{
+    align-items: center;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+
+.sobre{
+    color: #fff;
+    margin-top: 2rem;
+    width: 12%;
+}
+
+.titulo-sobre{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.texto-sobre{
+    font-size: 14px;
+    margin-top: 0.8rem;
+}
+
+.pessoa-sobre{
+    color: #B1B1B1;
+    cursor: pointer;
+    width: 12rem;
+}
+
+.imagem-sobre{
+    height: 110px;
+    width: 110px;
+}
+
+.imagem-sobre img{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.descricao-sobre{
+    color: #fff;
+}
+
+.saiba-mais {
+    background-color: #C93816;
+    height: 10vh;
+}
+
+
+.faixa{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    font-size: 90px;
+    font-weight: 700;
+    gap: 25px;
+    height: 120px;
+    justify-content: center;
+    overflow: hidden;
+    position: absolute;
+    transform: rotate(-7deg);
+    white-space: nowrap;
+    width: 100%;
+}
+
