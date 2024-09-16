@@ -1,35 +1,37 @@
+
 .sobre-nos{
     background-color: #000;
-    height: 25vh;
+    height: 280px;
 }
 
 .container-sobre{
     align-items: center;
     display: flex;
-    gap: 2%;
+    gap: 4%;
     justify-content: center;
 }
 
 .sobre{
     color: #fff;
     margin-top: 2rem;
-    width: 12%;
+    width: 340px;
 }
 
 .titulo-sobre{
     font-size: 40px;
     font-weight: 500;
+    white-space: nowrap;
 }
 
 .texto-sobre{
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 0.8rem;
 }
 
 .pessoa-sobre{
     color: #B1B1B1;
     cursor: pointer;
-    width: 12rem;
+    width: 120px;
 }
 
 .imagem-sobre{
@@ -42,29 +44,200 @@
     height: 100%;
     width: 100%;
 }
+
+.nome-sobre{
+    font-size: 20px;
+}
 .descricao-sobre{
+    font-size: 17px;
     color: #fff;
 }
 
-.saiba-mais {
+.faixas {
     background-color: #C93816;
-    height: 10vh;
+    height: 4.2vw;  
+}
+
+.container-faixa{
+    width: 100%;
+}
+.faixa{
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    font-size: 4vw;
+    font-weight: 700;
+    gap: 45vw;
+    left: -0.5%;
+    position: absolute;
+    top: 1210px;
+    transform: rotate(5deg);
+    width: 120%;
+}
+
+.faixa2{
+    align-items: center;
+    background-color: #fdfdfd;
+    display: flex;
+    font-size: 4.2vw;
+    font-weight: 700;
+    gap: 45px;
+    left: -1%;
+    overflow: hidden;
+    position: absolute;
+    top: 1180px;
+    transform: rotate(-5deg);
+    width: 109%;
+    white-space: nowrap;
+}
+
+/*saiba mais*/
+
+.saiba-mais{
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    height: 1000px;
+}
+
+.saiba-mais-texto{
+    align-items: center;
+    margin: 0 0 0 auto;
+    width: 50vw;
+}
+.saiba-mais-texto h1{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.saiba-mais-texto h1 span{
+    display: block;
+}
+
+.saiba-mais-texto #texto{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 40px 0;
+}
+.grid-saiba-mais{
+    align-items: center;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: 
+    'item1 item2'
+    'item3 item3';
+    max-width: 600px;
+}
+
+.card-saiba-mais{
+    align-items: center;
+    border: 1px;
+    border-radius: 50px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 30px;
 }
 
 
-.faixa{
-    align-items: center;
-    background-color: #fff;
-    display: flex;
-    font-size: 90px;
-    font-weight: 700;
-    gap: 25px;
-    height: 120px;
-    justify-content: center;
-    overflow: hidden;
-    position: absolute;
-    transform: rotate(-7deg);
-    white-space: nowrap;
+#card1{
+    grid-area: item1;
+    height: 170px;
+}
+#card2{
+    grid-area: item2;
+    height: 170px;
+}
+
+#card3{
+    grid-area: item3;
+    height: 50px;
+    width: 500px;
+}
+
+.saiba-mais-imagem{
+    height: 750px;
+    width: 500px;
+    margin: auto;
+}
+
+
+.saiba-mais-imagem img{
+    border-radius: 500px;
+    height: 100%;
+    object-fit: cover;
     width: 100%;
 }
 
+
+/*resposividade da pagina sobre-nos*/
+
+@media screen and (max-width: 1250px)
+{   /*sessão sobre responsiva*/
+    .sobre-nos{
+        height: 860px;
+    }
+    .container-sobre{
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .sobre{
+        padding: 0 30px;
+    }
+
+    .sobre .titulo-sobre{
+        font-size: 40px;
+    }
+
+    .texto-sobre{
+        font-size: 14px;
+    }
+
+    .pessoa-sobre{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        width: 270px;
+    }
+    
+    .descricao-sobre{
+        margin: 10px 0;
+    }
+
+
+    /*faixas responsivas*/
+    .faixa{
+        font-size: 4vw;
+        gap: 45vw;
+        top: 1780px;
+    }
+    .faixa2{
+        font-size: 4vw;
+        gap: 5vw;
+        top:1780px;
+    }
+
+    /*sessão saiba mais responsividade da largura 1250px*/
+
+    .saiba-mais-texto h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    
+
+    .saiba-mais-imagem{
+        display: none;
+    }
+    .saiba-mais-texto{
+        margin: 0;
+    }
+}

@@ -1,0 +1,48 @@
+section{
+    align-items: center;
+    background-color: #C93816;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+
+section .titulo-feedback{
+    display: flex;
+    margin: 100px;
+}
+section .titulo-feedback h1{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+section .titulo-feedback h1 span{
+    display: block;
+    line-height: 40px;
+}
+
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.card-grid .card{
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-size: 28px;
+    gap: 10px;
+    height: 300px;
+    justify-content: center;
+    padding: 30px;
+    width: 477px;
+}
+
+.card-grid .card#card-white{
+    background-color: #fff;
+    color: #000;
+}

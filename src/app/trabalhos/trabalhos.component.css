@@ -1,0 +1,51 @@
+.trabalhos{
+    background-color: #C93816;
+    height: 1000px;
+}
+
+.titulo h1{
+    color: #fff;
+    font-size: 80px;
+    padding: 80px 0 40px 130px;
+}
+
+.grid-album{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+    margin: 30px;
+}
+
+
+.grid-album img{
+    border-radius: 30px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.grid-album p{
+    align-items: center;
+    border: 1.45px;
+    border-radius: 14.48px;
+    border-style: solid;
+    color: #fff;
+    display: flex;
+    font-size: 26px;
+    font-weight: 700;
+    justify-content: center;
+    height: 50px;
+    width: 350px;
+}
+
+#card3{
+    padding-left: 70px;
+    display: block;
+    height: 70px;
+    width: 400px;
+}
+
+.grid-album #card3 span{
+    display: block;
+}

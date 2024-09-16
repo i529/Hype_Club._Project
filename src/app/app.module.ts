@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
 import { TrabalhosComponent } from './trabalhos/trabalhos.component';
-import { ContatoComponent } from './contato/contato.component';
+import { FooterComponent } from './footer/footer.component';
+import { FeedbackComponent } from './feedback/feedback.component';
+import { PedidosComponent } from './pedidos/pedidos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ContatoComponent } from './contato/contato.component';
     HomeComponent,
     SobreNosComponent,
     TrabalhosComponent,
-    ContatoComponent
+    FooterComponent,
+    FeedbackComponent,
+    PedidosComponent
   ],
   imports: [
     BrowserModule,

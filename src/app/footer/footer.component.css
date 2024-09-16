@@ -1,0 +1,97 @@
+section{
+    background-color: #000;
+    height: 450px;
+}
+section h1{
+    color: #fff;
+    font-size: 55px;
+    padding: 20px 0 0 50px;
+}
+
+section h1 span{
+    display: block;
+}
+
+section .container-footer{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.container-footer .container-esquerda{
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+}
+.container-footer .container-esquerda div p{
+    font-size: 20px;
+}
+
+.container-footer .container-esquerda div blockquote{
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.container-footer .container-direita{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.container-footer .container-direita .lista-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-footer .container-direita .lista-footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.redes-sociais p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.redes-sociais p span{
+    display: block;
+    line-height: 40px;
+}
+
+.wrapper{
+    display: flex;
+    gap: 20px;
+}
+
+.wrapper .icon{
+    cursor: pointer;
+}
+
+.wrapper .icon span{
+    border: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    display: block;
+    height: 60px;
+    text-align: center;
+    width: 60px;
+}
+
+.wrapper .icon:hover span{
+    background: #fff;
+    transition: 0.3s;
+}
+
+.wrapper .icon span i{
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.wrapper .icon:hover span i{
+    color: #000;
+    transition: 0.3s;
+}
+
