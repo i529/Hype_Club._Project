@@ -1,8 +1,8 @@
 .pedidos{
     background-color: #000;
     color: #fff;
-    height: 1200px;
-    padding: 130px 0 0 130px;
+    height: 1250px;
+    padding: 130px 0 0 70px;
 }
 
 #titulo-pedidos h1{
@@ -18,7 +18,7 @@
 .lista-pedidos ol{
     font-size: 50px;
     margin-left: 70px;
-    width: 50%;
+    width: 65%;
 }
 
 .lista-pedidos ol h2{
@@ -38,30 +38,24 @@
 
 @media screen and (max-width: 1250px) {
     .pedidos{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
         height: 1400px;
-        padding: 130px 0 0 0;
+        padding: 130px 0 0 10px;
     }
-    
+    #titulo-pedidos{
+        padding-left: 20px;
+    }
+
     #titulo-pedidos h1{
-        font-size: 60px;
+        font-size: 50px;
         line-height: 50px;
     }
 
-    .lista-pedidos{
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-
     .lista-pedidos ol{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .lista-pedidos ol h2{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .lista-pedidos ol p{
