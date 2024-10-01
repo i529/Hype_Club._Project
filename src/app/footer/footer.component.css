@@ -95,3 +95,39 @@ section .container-footer{
     transition: 0.3s;
 }
 
+@media screen and (max-width: 1150px) {
+
+    
+    .container-footer .container-esquerda{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .container-footer .container-direita{
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        width: 200px;
+    }
+
+    .container-footer .container-direita .redes-sociais{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 650px){
+    section{
+        height: 650px;
+    }
+
+    section .container-footer{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-footer .container-esquerda{
+        margin-bottom: 30px;
+    }
+}

@@ -46,3 +46,44 @@ section .titulo-feedback h1 span{
     background-color: #fff;
     color: #000;
 }
+
+@media screen and (max-width: 1000px){
+    
+    section{
+        align-items: start;
+        height: 1400px;
+    }
+    
+    section .titulo-feedback{
+        margin: 50px;
+    }
+
+    section .titulo-feedback h1{
+        font-size: 50px;
+    }
+   
+    .card-grid{
+        grid-template-columns: repeat(1,1fr);
+        margin: 50px;
+    }
+
+    .card-grid .card{
+        height: 250px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    section .titulo-feedback h1{
+        font-size: 30px;
+    }
+
+    section .titulo-feedback h1 span{
+        line-height: 25px;
+    }
+    
+    .card-grid .card{
+        font-size: 22px;
+    }
+}
