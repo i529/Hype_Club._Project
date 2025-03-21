@@ -1,0 +1,18 @@
+/**
+* @license
+*
+* Font Family: Clash Display
+* Designed by: Indian Type Foundry
+* URL: https://www.fontshare.com/fonts/clash-display
+* © 2024 Indian Type Foundry
+*
+* Clash Display Extralight 
+* Clash Display Light 
+* Clash Display Regular 
+* Clash Display Medium 
+* Clash Display Semibold 
+* Clash Display Bold 
+* Clash Display Variable (Variable font)
+
+*
+*/@font-face{font-family:ClashDisplay-Extralight;src:url(ClashDisplay-Extralight.0c602d054ead1539.woff2) format("woff2"),url(ClashDisplay-Extralight.95961220e3c60882.woff) format("woff"),url(ClashDisplay-Extralight.7760b2304e823912.ttf) format("truetype");font-weight:200;font-display:swap;font-style:normal}@font-face{font-family:ClashDisplay-Light;src:url(ClashDisplay-Light.5ad08f51bd250d94.woff2) format("woff2"),url(ClashDisplay-Light.49219271112a8788.woff) format("woff"),url(ClashDisplay-Light.b8f6da6f24c7e98e.ttf) format("truetype");font-weight:300;font-display:swap;font-style:normal}@font-face{font-family:ClashDisplay-Regular;src:url(ClashDisplay-Regular.285d44360adb7279.woff2) format("woff2"),url(ClashDisplay-Regular.0a8af53faac264c2.woff) format("woff"),url(ClashDisplay-Regular.bb1ff20c07260ed5.ttf) format("truetype");font-weight:400;font-display:swap;font-style:normal}@font-face{font-family:ClashDisplay-Medium;src:url(ClashDisplay-Medium.086a70ddba625929.woff2) format("woff2"),url(ClashDisplay-Medium.b4029a771f1a281e.woff) format("woff"),url(ClashDisplay-Medium.578e340fa46cd0c7.ttf) format("truetype");font-weight:500;font-display:swap;font-style:normal}@font-face{font-family:ClashDisplay-Semibold;src:url(ClashDisplay-Semibold.02d655c1dbb838f4.woff2) format("woff2"),url(ClashDisplay-Semibold.cffe86e99bf1e93e.woff) format("woff"),url(ClashDisplay-Semibold.6a5bb13d83b8cbe4.ttf) format("truetype");font-weight:600;font-display:swap;font-style:normal}@font-face{font-family:ClashDisplay-Bold;src:url(ClashDisplay-Bold.271f77516f49b23e.woff2) format("woff2"),url(ClashDisplay-Bold.eb853a67e431d047.woff) format("woff"),url(ClashDisplay-Bold.73023086293a99d8.ttf) format("truetype");font-weight:700;font-display:swap;font-style:normal}@font-face{font-family:ClashDisplay-Variable;src:url(ClashDisplay-Variable.5860e2bc8e383f94.woff2) format("woff2"),url(ClashDisplay-Variable.ad2aa7be670a8b2b.woff) format("woff"),url(ClashDisplay-Variable.42cbe77eee9e7152.ttf) format("truetype");font-weight:200 700;font-display:swap;font-style:normal}*{box-sizing:border-box;font-family:ClashDisplay-Variable;margin:0;padding:0}body{overflow-x:hidden}
