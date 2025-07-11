@@ -1,10 +1,14 @@
 # HypeClub
 
-Este projeto foi feito no angular versão 15.2.11.
+HypeClub é uma empresa fictícia, com o intuito de praticar a criação de uma landing page. Em maioria, utilizei Angular como framework e aprendi a modularizar o projeto.
 
 # Como instalar
 
 Clone o repositório para a sua máquina e em sequência acesse a pasta pelo cmd, quando acessada, use npm install para que instale as depedências que foram utilizadas no projeto.
+
+# stacks
+
+- Front End: Angular
 
 ## Development server
 
