@@ -6,9 +6,9 @@ HypeClub é uma empresa fictícia, com o intuito de praticar a criação de uma 
 
 Clone o repositório para a sua máquina e em sequência acesse a pasta pelo cmd, quando acessada, use npm install para que instale as depedências que foram utilizadas no projeto.
 
-# stacks
+# Stacks
 
-- Front End: Angular
+- Front End: Angular, CSS, HTML, TypeScript
 
 ## Development server
 
